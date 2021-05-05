@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="Sun.png"/>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.2.0/jspdf.umd.min.js"></script>
+
+    </head>
+    <body>
+        <div id="ScreenOne">
+            <div id=Welcome>welcome</div>
+            <div id=Start><a href="#ScreenTwo">start your journey</a></div>
+                <div id=Arrow1></div>
+                <div id=Arrow2></div>
+                <div id=Arrow3></div>
+        </div>
+        <div id="ScreenTwo">
+            <div id=Question1>In this moment, to whom might you turn were you to experience a form of trauma?</div>
+            <div id=AnswersContainer1>
+                <div id=Answers1><a href="#ScreenThree">my family member</a></div>
+                <div id=Answers2><a href="#ScreenThree">my therapist</a></div>
+                <div id=Answers3><a href="#ScreenThree">my friend or partner</a></div>
+                <div id=Answers4><a href="#ScreenThree">my spritiual / religious leader</a></div>
+                <div id=Answers5><a href="#ScreenThree">my teacher</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenOne">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer1>
+                <div class=Circle7></div>
+            </div>
+        </div>
+        <div id="ScreenThree">
+            <div id=Question2>In this moment, which environment might help you feel the most calm?</div>
+            <div id=AnswersContainer2>
+                <div id=Answers6><a href="#ScreenFour">a city</a></div>
+                <div id=Answers7><a href="#ScreenFour">a forest</a></div>
+                <div id=Answers8><a href="#ScreenFour">a beach</a></div>
+                <div id=Answers9><a href="#ScreenFour">a mountain</a></div>
+                <div id=Answers10><a href="#ScreenFour">a lake</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenTwo">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer2>
+                <div class=Circle7></div>
+                <div class=Circle8></div>
+            </div>
+        </div>
+        <div id="ScreenFour">
+            <div id=Question3>In this moment, which physical exercise might help relax your mind and body the most?</div>
+            <div id=AnswersContainer3>
+                <div id=Answers11><a href="#ScreenFive">yoga</a></div>
+                <div id=Answers12><a href="#ScreenFive">swimming</a></div>
+                <div id=Answers13><a href="#ScreenFive">meditation</a></div>
+                <div id=Answers14><a href="#ScreenFive">walking / running</a></div>
+                <div id=Answers15><a href="#ScreenFive">stretching</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenThree">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer3>
+                <div class=Circle7></div>
+                <div class=Circle8></div>
+                <div class=Circle9></div>
+            </div>
+        </div>
+        <div id="ScreenFive">
+            <div id=Question4>In this moment, which activity might help you feel the most centered?</div>
+            <div id=AnswersContainer4>
+                <div id=Answers16><a href="#ScreenSix">writing in my journal</a></div>
+                <div id=Answers17><a href="#ScreenSix">watching tv or a movie</a></div>
+                <div id=Answers18><a href="#ScreenSix">listening to music</a></div>
+                <div id=Answers19><a href="#ScreenSix">reading a book</a></div>
+                <div id=Answers20><a href="#ScreenSix">drawing / painting / doodling</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenFour">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer4>
+                <div class=Circle7></div>
+                <div class=Circle8></div>
+                <div class=Circle9></div>
+                <div class=Circle10></div>
+            </div>
+        </div>
+        <div id="ScreenSix">
+            <div id=Question5>In this moment, which experience might make you feel the most comforted?</div>
+            <div id=AnswersContainer5>
+                <div id=Answers21><a href="#ScreenSeven">time with family</a></div>
+                <div id=Answers22><a href="#ScreenSeven">time with my pet</a></div>
+                <div id=Answers23><a href="#ScreenSeven">time with myself</a></div>
+                <div id=Answers24><a href="#ScreenSeven">time with my friend / partner</a></div>
+                <div id=Answers25><a href="#ScreenSeven">time with my therapist</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenFive">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer6>
+                <div class=Circle7></div>
+                <div class=Circle8></div>
+                <div class=Circle9></div>
+                <div class=Circle10></div>
+                <div class=Circle11></div>
+            </div>
+        </div>
+        <div id="ScreenSeven">
+            <div id=Question6>In this moment, which of the following words do you most closely associate with happiness?</div>
+            <div id=AnswersContainer6>
+                <div id=Answers26><a href="#ScreenEight">stability</a></div>
+                <div id=Answers27><a href="#ScreenEight">accomplishment</a></div>
+                <div id=Answers28><a href="#ScreenEight">contentment</a></div>
+                <div id=Answers29><a href="#ScreenEight">abundance</a></div>
+                <div id=Answers30><a href="#ScreenEight">stewardship</a></div>
+            </div>
+            <div class=Circle>
+                <a href="#ScreenSix">
+                    <div class=Arrow1></div>
+                    <div class=Arrow2></div>
+                    <div class=Arrow3></div>
+                </a>
+            </div>
+            <div id=CircleContainer3>
+                <div class=Circle7></div>
+                <div class=Circle8></div>
+                <div class=Circle9></div>
+                <div class=Circle10></div>
+                <div class=Circle11></div>
+                <div class=Circle12></div>
+            </div>
+        </div>
+        <div id="ScreenEight">
+            <div id=Statement>Seek that which helps you feel <br>at peace.</div>
+            <div class=CircleEnd>
+                <a href="#ScreenSeven">
+                    <div class=Arrow4></div>
+                    <div class=Arrow5></div>
+                    <div class=Arrow6></div>
+                </a>
+            </div>
+            <div class=CircleBox>
+                <div class=Circle1></div>
+                <div class=Circle2></div>
+                <div class=Circle3></div>
+                <div class=Circle4></div>
+                <div class=Circle5></div>
+                <div class=Circle6></div>
+            </div>
+            
+            <div id="content">
+                <h3>Hello, this is a H3 tag</h3>
+           
+               <p>A paragraph</p>
+           </div>
+           <div id="editor"></div>
+           <button id="cmd">generate PDF</button>
+        </div>
+        
+        <script src="index.js" async defer></script>
+        <script src="app.js" async defer></script>
+    </body>
+</html>
